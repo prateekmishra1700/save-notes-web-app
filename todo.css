@@ -1,0 +1,77 @@
+body {
+    background-image: url('Beautiful-Ocean-Wallpaper.jpg');
+}
+
+#main-box {
+    margin-top: 5%;
+    margin-bottom: 20%;
+    margin-left: 38%;
+    margin-right: 30%;
+
+}
+.intro-Line{
+    text-align: center;
+    font-size: xx-large;
+    color: antiquewhite;
+    margin-top: 10%;
+}
+.headline{
+    color: white;
+    font: bolder;
+}
+button {
+    display: inline-block;
+    background-color: #7b38d8;
+    border-radius: 10px;
+    border: 4px double #cccccc;
+    color: #eeeeee;
+    text-align: center;
+    font-size: 8px;
+    padding: 5px;
+    width: 40px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    height: 38px;
+  }
+  button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  button:hover {
+    background-color: white;
+    color: blue;
+  }
+  button:hover span {
+    padding-right: 5px;
+  }
+  button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  input[type=text] {
+    border: none;
+    border-bottom: 2px solid red;
+    background-color: skyblue;
+    color: white;
+    height: 28px;
+    width: 303px;
+  }
+  input[type=date] {
+    border: none;
+    border-bottom: 2px solid red;
+    background-color: skyblue;
+    height: 28px;
+  }
+  
